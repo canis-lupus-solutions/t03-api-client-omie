@@ -1,0 +1,12 @@
+.vagrant/
+vendor/
+config/development.config.php
+data/cache/*
+!data/cache/.gitkeep
+phpunit.xml
+.phpunit.result.cache
+data/DoctrineORMModule/*
+.idea/
+error_log
+composer.phar
+env.php
