@@ -63,7 +63,7 @@ class Handler extends OmieApiHandler
      * @return OrdemOmieModel|null
      * @throws OmieApiException
      */
-    public function consultar($key, ?string $type = null): ?OrdemOmieModel
+    public function consultar(mixed $key, ?string $type = null): ?OrdemOmieModel
     {
         $param = null;
 
@@ -98,7 +98,7 @@ class Handler extends OmieApiHandler
      * @return OrdemStatusOmieModel|null
      * @throws OmieApiException
      */
-    public function excluir($key, ?string $type = null): ?OrdemStatusOmieModel
+    public function excluir(mixed $key, ?string $type = null): ?OrdemStatusOmieModel
     {
         $param = null;
 
@@ -140,12 +140,12 @@ class Handler extends OmieApiHandler
     }
 
     /**
-     * @param array|null|ListarOrdensRequest $request
+     * @param array|ListarOrdensRequest|null $request
      *
-     * @return ListarOrdensResponse
+     * @return ListarOrdensResponse|null
      * @throws OmieApiException
      */
-    public function listar($request = null): ListarOrdensResponse
+    public function listar(array|ListarOrdensRequest $request = null): ?ListarOrdensResponse
     {
         $param = [
             'pagina'               => 1,
@@ -234,7 +234,15 @@ class Handler extends OmieApiHandler
             }
         }
 
-        $result = $this->request(self::ACTION_LISTAR, $param);
+        try {
+            $result = $this->request(self::ACTION_LISTAR, $param);
+        } catch (OmieApiException $exception) {
+            if ($exception->getOmieErrorCode() == OmieApiException::ERROR_LISTAR_VAZIO) {
+                return null;
+            }
+
+            throw $exception;
+        }
 
         $response = new ListarOrdensResponse();
         $response->pagina = $result['pagina'];
@@ -250,12 +258,12 @@ class Handler extends OmieApiHandler
     }
 
     /**
-     * @param array|null|ListarOrdensRequest $request
+     * @param array|ListarOrdensRequest|null $request
      *
      * @return OrdemOmieModel[]
      * @throws OmieApiException
      */
-    public function listarTodos($request = null): array
+    public function listarTodos(array|ListarOrdensRequest $request = null): array
     {
         $list = [];
         $page = 0;
@@ -274,6 +282,9 @@ class Handler extends OmieApiHandler
             }
 
             $result = $this->listar($request);
+            if (!$result) {
+                break;
+            }
             $list = array_merge($list, $result->ordensDeServico);
             $totalPages = $result->totalDePaginas;
 
@@ -288,7 +299,7 @@ class Handler extends OmieApiHandler
      * @return VerificarStatusOrdemResponse
      * @throws OmieApiException
      */
-    public function verificarStatus($request): VerificarStatusOrdemResponse
+    public function verificarStatus(VerificarStatusOrdemRequest|array $request): VerificarStatusOrdemResponse
     {
         $param = [];
 
@@ -389,7 +400,7 @@ class Handler extends OmieApiHandler
      * @return TrocarEtapaOrdemResponse
      * @throws OmieApiException
      */
-    public function trocarEtapa($request): TrocarEtapaOrdemResponse
+    public function trocarEtapa(TrocarEtapaOrdemRequest|array $request): TrocarEtapaOrdemResponse
     {
         $param = [];
 
