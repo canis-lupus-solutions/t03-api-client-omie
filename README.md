@@ -16,7 +16,7 @@ Cliente para integração com a API do sistema ERP Omie. [Conheça o Omie](https
 use CanisLupus\ApiClients\Omie\v1\OmieApiClient;
 use CanisLupus\ApiClients\Omie\v1\OmieApiConfig;
 
-$clientOmie = new OmieApiClient(new OmieApiConfig($clientKeys['appKey'], $clientKeys['appSecret']));
+$clientOmie = new OmieApiClient(new OmieApiConfig('#appKey', '#appSecret'));
 
 // A variável $clientOmie agora poderá ser utilizada para chamar os métodos da API
 
