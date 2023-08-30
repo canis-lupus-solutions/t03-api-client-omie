@@ -51,7 +51,7 @@ $servicosFiltrados = $clientOmie->servicos->cadastro->listarTodos($request);
 use CanisLupus\ApiClients\Omie\v1\OmieApiClient;
 use CanisLupus\ApiClients\Omie\v1\OmieApiConfig;
 
-$clientOmie = new OmieApiClient(new OmieApiConfig($clientKeys['appKey'], $clientKeys['appSecret']));
+$clientOmie = new OmieApiClient(new OmieApiConfig('#appKey', '#appSecret'));
 
 // LISTAR
 // Irá trazer a primeira página de registros de ordens de serviço do Omie, permitindo filtros.
