@@ -1,13 +1,13 @@
 {
     "name": "canislupus/api-client-omie",
     "type": "library",
-    "description": "Client for Omie API",
-    "keywords": ["api", "client", "omie", "canis lupus"],
+    "description": "Client for Omie ERP API",
+    "keywords": ["api", "client", "omie", "erp", "canis lupus"],
     "homepage": "https://canislupus.com.br",
     "license": "MIT",
     "authors": [
         {
-            "name": "Leonardo de Aguiar Pereira",
+            "name": "Leonardo de Aguiar",
             "email": "leoaguiarpereira@gmail.com",
             "role": "Developer"
         }

@@ -87,7 +87,7 @@ class OmieApiHandler
                 if (isset($response['error'])) {
                     throw new Exception($response['error']);
                 } else {
-                    throw new Exception("An unknow error ocurred calling: {$endpoint} with action: {$action}");
+                    throw new Exception("An unknow error ocurred calling: $endpoint with action: $action");
                 }
             }
 

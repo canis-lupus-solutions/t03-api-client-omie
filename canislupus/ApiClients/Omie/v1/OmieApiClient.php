@@ -29,9 +29,10 @@ class OmieApiClient
 {
     static int $padraoRegistrosPorPagina = 500;
 
+    public ServicosHandler $servicos;
+
     protected EmpresasHandler $empresas;
     protected ProdutosHandler $produtos;
-    public ServicosHandler $servicos;
     protected TabelasDePrecosHandler $tabelasDePrecos;
     protected ClientesHandler $clientes;
     protected TagsHandler $tags;

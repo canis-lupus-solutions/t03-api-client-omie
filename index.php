@@ -269,8 +269,7 @@ try {
 
     // Alterar
     /*
-    $ordensDeServico = $clientOmie->servicos->ordens->listarTodos();
-    $os = $ordensDeServico[0];
+    $os = $clientOmie->servicos->ordens->consultar(118, 'numeroOs');
     $os->informacoesAdicionais->dadosAdicionaisNF = "Dados alterados pela API";
 
     $result = $clientOmie->servicos->ordens->alterar($os);

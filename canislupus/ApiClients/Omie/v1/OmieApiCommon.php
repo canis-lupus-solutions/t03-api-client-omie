@@ -1,6 +1,9 @@
 <?php
 namespace CanisLupus\ApiClients\Omie\v1;
 
+use DateTime;
+use Exception;
+
 /**
  * Class OmieApiCommon.
  *
@@ -81,12 +84,13 @@ class OmieApiCommon
     /**
      * @param $dateString
      *
-     * @return \DateTime
-     * @throws \Exception
+     * @return DateTime
+     * @throws Exception
      */
-    public static function dateTimeConverter($dateString){
+    public static function dateTimeConverter($dateString): DateTime
+    {
         $dateStringParts = explode('/', $dateString);
-        return new \DateTime($dateStringParts[2].'-'.$dateStringParts[1].'-'.$dateStringParts[0]);
-    }
 
+        return new DateTime($dateStringParts[2] . '-' . $dateStringParts[1] . '-' . $dateStringParts[0]);
+    }
 }
