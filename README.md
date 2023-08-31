@@ -176,805 +176,145 @@ Em breve exemplos de utilização aqui.
     <td>1</td>
 </tr>
 <tr>
-    <td>Percentual abrangido</td>
+    <td>Percentual abrangido 100%</td>
     <td>1,28%</td>
 </tr>
 </table>
- 
+
+
 
 ### Lista de API's
 
-<table>
-<thead>
-<tr>
-    <th>Grupo</th>
-    <th>SubGrupo</th>
-    <th>Recurso</th>
-    <th>Situação</th>    
-</tr>
-</thead>
-<tbody>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Clientes|Fornecedores|Transportadoras|etc</th>
-    <th><span style="color:cornflowerblue">75%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Clientes - Características</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Clientes - Tags</th>
-    <th><span style="color:cornflowerblue">75%</span></th>
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Vendedores</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Projetos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Empresas</th>
-    <th><span style="color:cornflowerblue">50%</span></th>
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Departamentos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Categorias</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Parcelas</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Tipos de Atividade da Empresa</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Cidades</th>
-    <th><span style="color:cornflowerblue">5%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Países</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Documentos Anexos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Tipos de Anexos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Tipo de Entrega</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th></th>
-    <th style="text-align:left;">Tipo de Assinante</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Finanças</th>
-    <th style="text-align:left;">Tipos de Documento</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Finanças</th>
-    <th style="text-align:left;">Tipos de Contas Correntes</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Finanças</th>
-    <th style="text-align:left;">Contas Correntes</th>
-    <th><span style="color:cornflowerblue">25%</span></th>
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Finanças</th>
-    <th style="text-align:left;">Bancos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Finanças</th>
-    <th style="text-align:left;">Contas do DRE</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Finanças</th>
-    <th style="text-align:left;">Finalidade de Transferência</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Finanças</th>
-    <th style="text-align:left;">Origem de títulos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Finanças</th>
-    <th style="text-align:left;">Bandeiras de Cartão</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Produtos</th>
-    <th style="text-align:left;">Produtos</th>
-    <th><span style="color:cornflowerblue">25%</span></th>
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Produtos</th>
-    <th style="text-align:left;">Produtos - Características</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Produtos</th>
-    <th style="text-align:left;">Produtos - Estrutura</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Produtos</th>
-    <th style="text-align:left;">Produtos - Kit</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Produtos</th>
-    <th style="text-align:left;">Familias de Produto</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Produtos</th>
-    <th style="text-align:left;">Unidades</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Produtos</th>
-    <th style="text-align:left;">Cenário de Impostos</th>
-    <th><span style="color:cornflowerblue">50%</span></th>
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Produtos</th>
-    <th style="text-align:left;">Características</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Produtos</th>
-    <th style="text-align:left;">Meios de Pagamento</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Produtos</th>
-    <th style="text-align:left;">Origem do Pedido</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Geral</th>
-    <th>Produtos</th>
-    <th style="text-align:left;">Motivos de Devolução</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-
-<tr>
-    <th>CRM</th>
-    <th></th>
-    <th style="text-align:left;">Contas</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th></th>
-    <th style="text-align:left;">Contas - Características</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th></th>
-    <th style="text-align:left;">Contatos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th></th>
-    <th style="text-align:left;">Oportunidades</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th></th>
-    <th style="text-align:left;">Oportunidades - Resumo</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th></th>
-    <th style="text-align:left;">Tarefas</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th></th>
-    <th style="text-align:left;">Tarefas - Resumo</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Soluções</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Fases</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Usuários</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Status</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Motivos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Tipos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Parceiros</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Finders</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Origens</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Concorrentes</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Verticais</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>CRM</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Tipos de Tarefas</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-
-<tr>
-    <th>Finanças</th>
-    <th></th>
-    <th style="text-align:left;">Contas Correntes - Lançamentos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Finanças</th>
-    <th></th>
-    <th style="text-align:left;">Contas a Pagar - Lançamentos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Finanças</th>
-    <th></th>
-    <th style="text-align:left;">Contas a Receber - Lançamentos</th>
-    <th><span style="color:cornflowerblue">25%</span></th>    
-</tr>
-<tr>
-    <th>Finanças</th>
-    <th></th>
-    <th style="text-align:left;">Contas a Receber - Boletos</th>
-    <th><span style="color:cornflowerblue">25%</span></th>    
-</tr>
-<tr>
-    <th>Finanças</th>
-    <th></th>
-    <th style="text-align:left;">Contas a Receber - PIX</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Finanças</th>
-    <th></th>
-    <th style="text-align:left;">Extrato de Conta Corrente</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Finanças</th>
-    <th></th>
-    <th style="text-align:left;">Orçamento de Caixa</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Finanças</th>
-    <th></th>
-    <th style="text-align:left;">Pesquisar Títulos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Finanças</th>
-    <th></th>
-    <th style="text-align:left;">Movimentos Financeiros</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Finanças</th>
-    <th></th>
-    <th style="text-align:left;">Resumo</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-
-<tr>
-    <th>Produtos</th>
-    <th>Compras</th>
-    <th style="text-align:left;">Requisições de Compra</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Compras</th>
-    <th style="text-align:left;">Pedidos de Compra</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Compras</th>
-    <th style="text-align:left;">Ordens de Produção</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Compras</th>
-    <th style="text-align:left;">Nota de Entrada</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Compras</th>
-    <th style="text-align:left;">Nota de Entrada - Faturamento</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Compras</th>
-    <th style="text-align:left;">Recebimento de Nota Fiscal</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Compras</th>
-    <th style="text-align:left;">Resumo</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Formas de Pagamento</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">NCM</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Etapas de Faturamento</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Tabela de Preços</th>
-    <th><span style="color:cornflowerblue">75%</span></th>
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Impostos</th>
-    <th style="text-align:left;">CFOP</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Impostos</th>
-    <th style="text-align:left;">CNAE</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Impostos</th>
-    <th style="text-align:left;">ICMS - CST</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Impostos</th>
-    <th style="text-align:left;">ICMS - CSOSN</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Impostos</th>
-    <th style="text-align:left;">ICMS - Origem da Mercadoria</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Impostos</th>
-    <th style="text-align:left;">PIS - CST</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Impostos</th>
-    <th style="text-align:left;">COFINS - CST</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Impostos</th>
-    <th style="text-align:left;">IPI - CST</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Impostos</th>
-    <th style="text-align:left;">IPI - Enquadramento</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Impostos</th>
-    <th style="text-align:left;">Tipo de Cálculo</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Impostos</th>
-    <th style="text-align:left;">CEST</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Venda</th>
-    <th style="text-align:left;">Pedidos de Venda - Resumido</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Venda</th>
-    <th style="text-align:left;">Pedidos de Venda</th>
-    <th><span style="color:cornflowerblue">75%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Venda</th>
-    <th style="text-align:left;">Pedidos de Venda - Faturamento</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Venda</th>
-    <th style="text-align:left;">Pedidos de Venda - Etapas</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Venda</th>
-    <th style="text-align:left;">CT-e / CT-e OS</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Venda</th>
-    <th style="text-align:left;">Remessa de Produtos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Venda</th>
-    <th style="text-align:left;">Remessa de Produtos - Faturamento</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Venda</th>
-    <th style="text-align:left;">Resumo</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Venda</th>
-    <th style="text-align:left;">Obter Documentos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-
-<tr>
-    <th>Produtos</th>
-    <th>Cupom Fiscal</th>
-    <th style="text-align:left;">Adicionar</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Cupom Fiscal</th>
-    <th style="text-align:left;">Cancelar ou excluir</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Cupom Fiscal</th>
-    <th style="text-align:left;">Consultar</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Cupom Fiscal</th>
-    <th style="text-align:left;">Importar NFC-e</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>Cupom Fiscal</th>
-    <th style="text-align:left;">Importar CFe-Sat</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>NF-e</th>
-    <th style="text-align:left;">Consultas</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>NF-e</th>
-    <th style="text-align:left;">Utilitários</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Produtos</th>
-    <th>NF-e</th>
-    <th style="text-align:left;">Importar</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-
-
-<tr>
-    <th>Estoque</th>
-    <th></th>
-    <th style="text-align:left;">Ajustes de Estoque</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Estoque</th>
-    <th></th>
-    <th style="text-align:left;">Consulta Estoque</th>
-    <th><span style="color:cornflowerblue">25%</span></th>
-</tr>
-<tr>
-    <th>Estoque</th>
-    <th></th>
-    <th style="text-align:left;">Movimento Estoque</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Estoque</th>
-    <th></th>
-    <th style="text-align:left;">Locais de Estoque</th>
-    <th><span style="color:cornflowerblue">25%</span></th>
-</tr>
-<tr>
-    <th>Estoque</th>
-    <th></th>
-    <th style="text-align:left;">Resumo do Estoque</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Estoque</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Compradores</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Estoque</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Produto x Fornecedor</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-
-<tr>
-    <th>Serviços</th>
-    <th></th>
-    <th style="text-align:left;">Serviços</th>
-    <th><span style="color:cornflowerblue">25%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th></th>
-    <th style="text-align:left;">Ordens de Serviço</th>
-    <th><span style="color:green">100%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th></th>
-    <th style="text-align:left;">Ordens de Serviço - Faturamento</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th></th>
-    <th style="text-align:left;">Contratos de Serviço</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th></th>
-    <th style="text-align:left;">Contratos de Serviço - Faturamento</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th></th>
-    <th style="text-align:left;">Resumo</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th></th>
-    <th style="text-align:left;">Obter Documentos</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th>NFS-e</th>
-    <th style="text-align:left;">Consultas</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Serviços no Município</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Tipos de Tributação</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">LC 116</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">NBS</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">IBPT</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Tipo de Faturamento de Contrato</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Tipo de utilização</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-<tr>
-    <th>Serviços</th>
-    <th>Auxiliares</th>
-    <th style="text-align:left;">Classificação do Serviço</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-
-
-<tr>
-    <th>Contador</th>
-    <th></th>
-    <th style="text-align:left;">Documentos Fiscais</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-
-<tr>
-    <th>Contador</th>
-    <th></th>
-    <th style="text-align:left;">Resumo</th>
-    <th><span style="color:gray">0%</span></th>    
-</tr>
-
-</tbody>
-</table>
+| **Grupo** | **SubGrupo** | **Recurso**                                  | **Situação** |
+|-----------|--------------|----------------------------------------------|:------------:|
+| Geral     |              | Clientes, Fornecedores, Transportadoras, etc |     75%      |
+| Geral     |              | Clientes - Características                   |      0%      |
+| Geral     |              | Clientes - Tags                              |     75%      |
+| Geral     |              | Vendedores                                   |      0%      |
+| Geral     |              | Projetos                                     |      0%      |
+| Geral     |              | Empresas                                     |     50%      |
+| Geral     |              | Departamentos                                |      0%      |
+| Geral     |              | Categorias                                   |      0%      |
+| Geral     |              | Parcelas                                     |      0%      |
+| Geral     |              | Tipos de Atividade da Empresa                |      0%      |
+| Geral     |              | Cidades                                      |      5%      |
+| Geral     |              | Países                                       |      0%      |
+| Geral     |              | Documentos Anexos                            |      0%      |
+| Geral     |              | Tipos de Anexos                              |      0%      |
+| Geral     |              | Tipo de Entrega                              |      0%      |
+| Geral     |              | Tipo de Assinante                            |      0%      |
+| Geral     | Finanças     | Tipos de Documento                           |      0%      |
+| Geral     | Finanças     | Tipos de Contas Correntes                    |      0%      |
+| Geral     | Finanças     | Contas Correntes                             |     25%      |
+| Geral     | Finanças     | Bancos                                       |      0%      |
+| Geral     | Finanças     | Contas do DRE                                |      0%      |
+| Geral     | Finanças     | Finalidade de Transferência                  |      0%      |
+| Geral     | Finanças     | Origem de títulos                            |      0%      |
+| Geral     | Finanças     | Bandeiras de Cartão                          |      0%      |
+| Geral     | Produtos     | Produtos                                     |     25%      |
+| Geral     | Produtos     | Produtos - Características                   |      0%      |
+| Geral     | Produtos     | Produtos - Estrutura                         |      0%      |
+| Geral     | Produtos     | Produtos - Kit                               |      0%      |
+| Geral     | Produtos     | Familias de Produto                          |      0%      |
+| Geral     | Produtos     | Unidades                                     |      0%      |
+| Geral     | Produtos     | Cenário de Impostos                          |     50%      |
+| Geral     | Produtos     | Características                              |      0%      |
+| Geral     | Produtos     | Meios de Pagamento                           |      0%      |
+| Geral     | Produtos     | Origem do Pedido                             |      0%      |
+| Geral     | Produtos     | Motivos de Devolução                         |      0%      |
+| CRM       |              | Contas                                       |      0%      |
+| CRM       |              | Contas - Características                     |      0%      |
+| CRM       |              | Contatos                                     |      0%      |
+| CRM       |              | Oportunidades                                |      0%      |
+| CRM       |              | Oportunidades - Resumo                       |      0%      |
+| CRM       |              | Tarefas                                      |      0%      |
+| CRM       |              | Tarefas - Resumo                             |      0%      |
+| CRM       | Auxiliares   | Soluções                                     |      0%      |
+| CRM       | Auxiliares   | Fases                                        |      0%      |
+| CRM       | Auxiliares   | Usuários                                     |      0%      |
+| CRM       | Auxiliares   | Status                                       |      0%      |
+| CRM       | Auxiliares   | Motivos                                      |      0%      |
+| CRM       | Auxiliares   | Tipos                                        |      0%      |
+| CRM       | Auxiliares   | Parceiros                                    |      0%      |
+| CRM       | Auxiliares   | Finders                                      |      0%      |
+| CRM       | Auxiliares   | Origens                                      |      0%      |
+| CRM       | Auxiliares   | Concorrentes                                 |      0%      |
+| CRM       | Auxiliares   | Verticais                                    |      0%      |
+| CRM       | Auxiliares   | Tipos de Tarefas                             |      0%      |
+| Finanças  |              | Contas Correntes - Lançamentos               |      0%      |
+| Finanças  |              | Contas a Pagar - Lançamentos                 |      0%      |
+| Finanças  |              | Contas a Receber - Lançamentos               |     25%      |
+| Finanças  |              | Contas a Receber - Boletos                   |     25%      |
+| Finanças  |              | Contas a Receber - PIX                       |      0%      |
+| Finanças  |              | Extrato de Conta Corrente                    |      0%      |
+| Finanças  |              | Orçamento de Caixa                           |      0%      |
+| Finanças  |              | Pesquisar Títulos                            |      0%      |
+| Finanças  |              | Movimentos Financeiros                       |      0%      |
+| Finanças  |              | Resumo                                       |      0%      |
+| Produtos  | Compras      | Requisições de Compra                        |      0%      |
+| Produtos  | Compras      | Pedidos de Compra                            |      0%      |
+| Produtos  | Compras      | Ordens de Produção                           |      0%      |
+| Produtos  | Compras      | Nota de Entrada                              |      0%      |
+| Produtos  | Compras      | Nota de Entrada - Faturamento                |      0%      |
+| Produtos  | Compras      | Recebimento de Nota Fiscal                   |      0%      |
+| Produtos  | Compras      | Resumo                                       |      0%      |
+| Produtos  | Auxiliares   | Formas de Pagamento                          |      0%      |
+| Produtos  | Auxiliares   | NCM                                          |      0%      |
+| Produtos  | Auxiliares   | Etapas de Faturamento                        |      0%      |
+| Produtos  | Auxiliares   | Tabela de Preços                             |     75%      |
+| Produtos  | Impostos     | CFOP                                         |      0%      |
+| Produtos  | Impostos     | CNAE                                         |      0%      |
+| Produtos  | Impostos     | ICMS - CST                                   |      0%      |
+| Produtos  | Impostos     | ICMS - CSOSN                                 |      0%      |
+| Produtos  | Impostos     | ICMS - Origem da Mercadoria                  |      0%      |
+| Produtos  | Impostos     | PIS - CST                                    |      0%      |
+| Produtos  | Impostos     | COFINS - CST                                 |      0%      |
+| Produtos  | Impostos     | IPI - CST                                    |      0%      |
+| Produtos  | Impostos     | IPI - Enquadramento                          |      0%      |
+| Produtos  | Impostos     | Tipo de Cálculo                              |      0%      |
+| Produtos  | Impostos     | CEST                                         |      0%      |
+| Produtos  | Venda        | Pedidos de Venda - Resumido                  |      0%      |
+| Produtos  | Venda        | Pedidos de Venda                             |     75%      |
+| Produtos  | Venda        | Pedidos de Venda - Faturamento               |      0%      |
+| Produtos  | Venda        | Pedidos de Venda - Etapas                    |      0%      |
+| Produtos  | Venda        | CT-e / CT-e OS                               |      0%      |
+| Produtos  | Venda        | Remessa de Produtos                          |      0%      |
+| Produtos  | Venda        | Remessa de Produtos - Faturamento            |      0%      |
+| Produtos  | Venda        | Resumo                                       |      0%      |
+| Produtos  | Venda        | Obter Documentos                             |      0%      |
+| Produtos  | Cupom Fiscal | Adicionar                                    |      0%      |
+| Produtos  | Cupom Fiscal | Cancelar ou excluir                          |      0%      |
+| Produtos  | Cupom Fiscal | Consultar                                    |      0%      |
+| Produtos  | Cupom Fiscal | Importar NFC-e                               |      0%      |
+| Produtos  | Cupom Fiscal | Importar CFe-Sat                             |      0%      |
+| Produtos  | NF-e         | Consultas                                    |      0%      |
+| Produtos  | NF-e         | Utilitários                                  |      0%      |
+| Produtos  | NF-e         | Importar                                     |      0%      |
+| Estoque   |              | Ajustes de Estoque                           |      0%      |
+| Estoque   |              | Consulta Estoque                             |     25%      |
+| Estoque   |              | Movimento Estoque                            |      0%      |
+| Estoque   |              | Locais de Estoque                            |     25%      |
+| Estoque   |              | Resumo do Estoque                            |      0%      |
+| Estoque   | Auxiliares   | Compradores                                  |      0%      |
+| Estoque   | Auxiliares   | Produto x Fornecedor                         |      0%      |
+| Serviços  |              | Serviços                                     |     25%      |
+| Serviços  |              | Ordens de Serviço                            |     100%     |
+| Serviços  |              | Ordens de Serviço - Faturamento              |      0%      |
+| Serviços  |              | Contratos de Serviço                         |      0%      |
+| Serviços  |              | Contratos de Serviço - Faturamento           |      0%      |
+| Serviços  |              | Resumo                                       |      0%      |
+| Serviços  |              | Obter Documentos                             |      0%      |
+| Serviços  | NFS-e        | Consultas                                    |      0%      |
+| Serviços  | Auxiliares   | Serviços no Município                        |      0%      |
+| Serviços  | Auxiliares   | Tipos de Tributação                          |      0%      |
+| Serviços  | Auxiliares   | LC 116                                       |      0%      |
+| Serviços  | Auxiliares   | NBS                                          |      0%      |
+| Serviços  | Auxiliares   | IBPT                                         |      0%      |
+| Serviços  | Auxiliares   | Tipo de Faturamento de Contrato              |      0%      |
+| Serviços  | Auxiliares   | Tipo de utilização                           |      0%      |
+| Serviços  | Auxiliares   | Classificação do Serviço                     |      0%      |
+| Contador  |              | Documentos Fiscais                           |      0%      |
+| Contador  |              | Resumo                                       |      0%      |
 
 
 ## Contribua
