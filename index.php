@@ -370,8 +370,25 @@ try {
     */
 
     // Consultar
+    // Por Código do Pedido
+    //$pedido = $clientOmie->pedidos()->consultar(new PedidoConsultarRequestOmieModel(11483787072));
+
+    // Por Código de Integração do Pedido
     /*
-    $pedido = $clientOmie->pedidos()->consultar(new PedidoConsultarRequestOmieModel(2019366037));
+    $req = (new PedidoConsultarRequestOmieModel())->setCodigoPedidoIntegracao('eba75d99-d5a6-44cb-bd9b-b647da374919');
+    $pedido = $clientOmie->pedidos()->consultar($req);
+    */
+
+    // Por Número do Pedido
+    /*
+    $req = (new PedidoConsultarRequestOmieModel())->setNumeroPedido('9375');
+    $pedido = $clientOmie->pedidos()->consultar($req);
+
+
+    echo "<pre>";
+    var_dump($pedido);
+    echo "</pre>";
+    die;
     */
 
 

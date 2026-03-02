@@ -1,4 +1,5 @@
 <?php
+
 namespace CanisLupus\ApiClients\Omie\v1\Models\Produtos\Pedidos;
 
 /**
@@ -12,6 +13,8 @@ namespace CanisLupus\ApiClients\Omie\v1\Models\Produtos\Pedidos;
 class PedidoConsultarRequestOmieModel
 {
     protected ?int $codigoPedido = null;
+    protected ?string $codigoPedidoIntegracao = null;
+    protected ?string $numeroPedido = null;
 
 
     /**
@@ -42,6 +45,28 @@ class PedidoConsultarRequestOmieModel
     {
         $this->codigoPedido = $codigoPedido;
 
+        return $this;
+    }
+
+    public function getCodigoPedidoIntegracao(): ?string
+    {
+        return $this->codigoPedidoIntegracao;
+    }
+
+    public function setCodigoPedidoIntegracao(?string $codigoPedidoIntegracao): PedidoConsultarRequestOmieModel
+    {
+        $this->codigoPedidoIntegracao = $codigoPedidoIntegracao;
+        return $this;
+    }
+
+    public function getNumeroPedido(): ?string
+    {
+        return $this->numeroPedido;
+    }
+
+    public function setNumeroPedido(?string $numeroPedido): PedidoConsultarRequestOmieModel
+    {
+        $this->numeroPedido = $numeroPedido;
         return $this;
     }
 }

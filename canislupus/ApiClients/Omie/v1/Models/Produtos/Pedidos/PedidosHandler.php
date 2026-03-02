@@ -1,4 +1,5 @@
 <?php
+
 namespace CanisLupus\ApiClients\Omie\v1\Models\Produtos\Pedidos;
 
 use Exception;
@@ -34,7 +35,7 @@ class PedidosHandler extends OmieApiHandler
 
 
     /**
-     * @param string     $action
+     * @param string $action
      * @param array|null $param
      *
      * @return array
@@ -57,6 +58,7 @@ class PedidosHandler extends OmieApiHandler
         // Cabeçalho
         $cabecalhoSubModelo = new CabecalhoSubModelo();
         $cabecalhoSubModelo->setCodigoPedido($data['cabecalho']['codigo_pedido'] ?? null);
+        $cabecalhoSubModelo->setCodigoPedidoIntegracao($data['cabecalho']['codigo_pedido_integracao'] ?? null);
         $cabecalhoSubModelo->setNumeroPedido($data['cabecalho']['numero_pedido'] ?? null);
         $cabecalhoSubModelo->setEtapa($data['cabecalho']['etapa'] ?? null);
         $cabecalhoSubModelo->setCodigoCenarioImpostos($data['cabecalho']['codigo_cenario_impostos'] ?? null);
@@ -278,7 +280,7 @@ class PedidosHandler extends OmieApiHandler
 
     /**
      * @param string $action
-     * @param array  $entityArray
+     * @param array $entityArray
      *
      * @return array
      */
@@ -359,6 +361,12 @@ class PedidosHandler extends OmieApiHandler
 
         if ($requestModel->getCodigoPedido()) {
             $param['codigo_pedido'] = $requestModel->getCodigoPedido();
+
+        } else if ($requestModel->getCodigoPedidoIntegracao()) {
+            $param['codigo_pedido_integracao'] = $requestModel->getCodigoPedidoIntegracao();
+
+        } else if ($requestModel->getNumeroPedido()) {
+            $param['numero_pedido'] = $requestModel->getNumeroPedido();
         }
 
         $result = $this->request(self::ACTION_CONSULTAR, $param);
